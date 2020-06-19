@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  &__settings {
+    margin-left: auto;
+    position: relative;
+  }
+
+  &__btn {
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    color: var(--color-white);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: opacity var(--transition-min);
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

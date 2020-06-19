@@ -1,0 +1,36 @@
+.dropdown {
+  display: none;
+
+  &_visible {
+    display: block;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    background-color: var(--color-black-light);
+    width: 24rem;
+    z-index: 99;
+    border-radius: 0.6rem;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: opacity var(--transition-min);
+
+    & > svg {
+      margin-left: 1rem;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
