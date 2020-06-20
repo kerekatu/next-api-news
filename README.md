@@ -3,9 +3,7 @@
 NewsBuddy lets you view the latest news from around the world, while keeping the experience smooth by giving quick access to a vast arsenal of sorting tools. This project utilizes Nextjs, and NewsAPI to provide fast and reliable way for fetching news.
 
 <p align="center">
-  <a href="https://webnew.fastcast4u.com">
     <img src="https://i.imgur.com/jWRgiQ8.png" alt="Web Shot" />
-  </a>
 </p>
 
 ## Features 🎉
